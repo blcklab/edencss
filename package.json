@@ -1,0 +1,93 @@
+{
+  "name": "@blcklab/edencss",
+  "version": "1.0.0",
+  "description": "A TypeScript-powered, mobile-first CSS utility system for modern web interfaces.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Avelurs Tinio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blcklab/edencss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blcklab/edencss/issues"
+  },
+  "homepage": "https://github.com/blcklab/edencss#readme",
+  "keywords": [
+    "css",
+    "utilities",
+    "utility-css",
+    "mobile-first",
+    "design-system",
+    "typescript",
+    "edencss",
+    "blcklab"
+  ],
+  "style": "./dist/edencss.css",
+  "sideEffects": [
+    "*.css",
+    "**/*.css"
+  ],
+  "files": [
+    "dist/*.css",
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/config/*.js",
+    "dist/config/*.d.ts",
+    "dist/cli/*.js",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "exports": {
+    ".": "./dist/edencss.css",
+    "./edencss.css": "./dist/edencss.css",
+    "./reset.css": "./dist/reset.css",
+    "./tokens.css": "./dist/tokens.css",
+    "./base.css": "./dist/base.css",
+    "./layout.css": "./dist/layout.css",
+    "./spacing.css": "./dist/spacing.css",
+    "./sizing.css": "./dist/sizing.css",
+    "./typography.css": "./dist/typography.css",
+    "./colors.css": "./dist/colors.css",
+    "./effects.css": "./dist/effects.css",
+    "./themes.css": "./dist/themes.css",
+    "./utilities.css": "./dist/utilities.css",
+    "./config": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./config/default": {
+      "types": "./dist/config/defaultConfig.d.ts",
+      "import": "./dist/config/defaultConfig.js"
+    },
+    "./config/define": {
+      "types": "./dist/config/defineEdenConfig.d.ts",
+      "import": "./dist/config/defineEdenConfig.js"
+    }
+  },
+  "bin": {
+    "edencss": "./dist/cli/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "node ./scripts/clean-dist.mjs",
+    "build": "npm run clean && npm run build:css && npm run build:js",
+    "build:css": "tsx src/build.ts",
+    "build:js": "tsc -p tsconfig.dist.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "tsx --test \"src/**/*.test.ts\"",
+    "prepublishOnly": "npm run build && npm run typecheck && npm test",
+    "check": "npm run build && npm run typecheck && npm test && npm pack --dry-run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
