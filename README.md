@@ -1,4 +1,10 @@
-# EdenCSS User Documentation
+<p align="center">
+ <img
+  src="https://cdn.jsdelivr.net/gh/blcklab/edencss@master/docs/logo.png"
+  alt="EdenCSS logo"
+  width="110"
+/>
+</p>
 
 EdenCSS is a lightweight, mobile-first CSS utility system for building clean, modern web interfaces.
 
