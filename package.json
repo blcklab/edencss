@@ -81,7 +81,7 @@
     "build:css": "tsx src/build.ts",
     "build:js": "tsc -p tsconfig.dist.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "test": "tsx --test \"src/**/*.test.ts\"",
+    "test": "node ./scripts/run-tests.mjs",
     "prepublishOnly": "npm run build && npm run typecheck && npm test",
     "check": "npm run build && npm run typecheck && npm test && npm pack --dry-run"
   },
