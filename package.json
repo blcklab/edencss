@@ -1,6 +1,6 @@
 {
   "name": "@blcklab/edencss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeScript-powered, mobile-first CSS utility system for modern web interfaces.",
   "type": "module",
   "license": "MIT",
