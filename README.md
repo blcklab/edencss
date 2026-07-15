@@ -1,4 +1,11 @@
-# EdenCSS
+<p align="center">
+ <img
+  src="https://cdn.jsdelivr.net/gh/blcklab/edencss@master/docs/logo.png"
+  alt="Yuirinx logo"
+  width="110"
+/>
+</p>
+
 
 A lightweight, mobile-first CSS utility system for building clean, modern web interfaces.
 
@@ -221,22 +228,11 @@ Future component classes should use the `eden-` namespace:
 <button class="eden-btn">Save</button>
 ```
 
-## Important note about other utility frameworks
 
-EdenCSS is designed to be used as a standalone utility system. Since classes are unprefixed, names such as `container`, `p-4`, `text-sm`, `rounded-xl`, and `shadow-md` may conflict with other utilities, or custom project CSS.
-
-Use EdenCSS as your main utility foundation, not on top of another utility framework.
 
 ## Documentation
 
-- [Getting Started](docs/GETTING_STARTED.md)
-- [Utilities](docs/UTILITIES.md)
-- [Layout](docs/LAYOUT.md)
-- [Responsive Design](docs/RESPONSIVE.md)
-- [Theming](docs/THEMING.md)
-- [Modular Imports](docs/MODULAR_IMPORTS.md)
-- [Component Foundation](docs/COMPONENT_FOUNDATION.md)
-- [FAQ](docs/FAQ.md)
+- In progress
 
 ## Package contents
 
