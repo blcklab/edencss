@@ -1,5 +1,5 @@
 {
-  "$schema": "https://scriptoria.dev/schemas/v0.8/scriptoria.schema.json",
+  "$schema": "http://localhost:5173/schemas/v0.8/scriptoria.schema.json",
   "title": "Edencss",
   "description": "A TypeScript-powered, mobile-first CSS utility system for modern web interfaces.",
   "playground": {

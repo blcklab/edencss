@@ -1,5 +1,5 @@
 {
-  "$schema": "https://scriptoria.dev/schemas/v0.8/playground.schema.json",
+  "$schema": "http://localhost:5173/schemas/v0.8/playground.schema.json",
   "title": "Edencss Playground",
   "description": "Interactive examples for Edencss.",
   "defaultPlugin": "edencss",
