@@ -1,0 +1,9 @@
+{
+  "title": "Edencss Preview",
+  "description": "Edit the HTML and custom CSS to try the published stylesheet.",
+  "html": "<main class=\"playground-demo\">\n  <h1>Hello from Scriptoria</h1>\n  <p>Edit this example using your library classes.</p>\n  <button type=\"button\">Get started</button>\n</main>",
+  "css": ".playground-demo {\n  max-width: 42rem;\n  margin: 0 auto;\n}\n",
+  "viewport": {
+    "height": 420
+  }
+}

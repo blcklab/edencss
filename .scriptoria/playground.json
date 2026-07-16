@@ -1,0 +1,28 @@
+{
+  "$schema": "https://scriptoria.dev/schemas/v0.8/playground.schema.json",
+  "title": "Edencss Playground",
+  "description": "Interactive examples for Edencss.",
+  "defaultPlugin": "edencss",
+  "plugins": [
+    {
+      "id": "edencss",
+      "label": "Edencss",
+      "description": "A TypeScript-powered, mobile-first CSS utility system for modern web interfaces.",
+      "adapter": "css",
+      "asset": {
+        "provider": "jsdelivr-npm",
+        "package": "@blcklab/edencss",
+        "version": "1.0.1",
+        "path": "dist/edencss.css"
+      },
+      "defaultExample": "starter",
+      "examples": [
+        {
+          "id": "starter",
+          "label": "Starter",
+          "source": ".scriptoria/playground/edencss/starter.json"
+        }
+      ]
+    }
+  ]
+}

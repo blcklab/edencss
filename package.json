@@ -23,6 +23,9 @@
     "edencss",
     "blcklab"
   ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "style": "./dist/edencss.css",
   "sideEffects": [
     "*.css",
@@ -40,7 +43,11 @@
     "CHANGELOG.md"
   ],
   "exports": {
-    ".": "./dist/edencss.css",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
     "./edencss.css": "./dist/edencss.css",
     "./reset.css": "./dist/reset.css",
     "./tokens.css": "./dist/tokens.css",
@@ -55,15 +62,18 @@
     "./utilities.css": "./dist/utilities.css",
     "./config": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
     },
     "./config/default": {
       "types": "./dist/config/defaultConfig.d.ts",
-      "import": "./dist/config/defaultConfig.js"
+      "import": "./dist/config/defaultConfig.js",
+      "default": "./dist/config/defaultConfig.js"
     },
     "./config/define": {
       "types": "./dist/config/defineEdenConfig.d.ts",
-      "import": "./dist/config/defineEdenConfig.js"
+      "import": "./dist/config/defineEdenConfig.js",
+      "default": "./dist/config/defineEdenConfig.js"
     }
   },
   "bin": {
