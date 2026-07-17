@@ -16,7 +16,135 @@
         "path": "dist/edencss.css"
       },
       "examplesRoot": ".scriptoria/playground/edencss/examples",
-      "defaultExample": "starter"
+      "defaultExample": "starter",
+      "examples": [
+        {
+          "id": "starter",
+          "label": "Starter",
+          "group": "Getting Started",
+          "order": 10
+        },
+        {
+          "id": "hero",
+          "label": "Hero",
+          "group": "Sections",
+          "order": 20
+        },
+        {
+          "id": "header",
+          "label": "Header",
+          "group": "Sections",
+          "order": 30
+        },
+        {
+          "id": "features",
+          "label": "Features",
+          "group": "Sections",
+          "order": 40
+        },
+        {
+          "id": "pricing",
+          "label": "Pricing",
+          "group": "Sections",
+          "order": 50
+        },
+        {
+          "id": "testimonials",
+          "label": "Testimonials",
+          "group": "Sections",
+          "order": 60
+        },
+        {
+          "id": "stats",
+          "label": "Stats",
+          "group": "Sections",
+          "order": 70
+        },
+        {
+          "id": "blog",
+          "label": "Blog",
+          "group": "Sections",
+          "order": 80
+        },
+        {
+          "id": "footer",
+          "label": "Footer",
+          "group": "Sections",
+          "order": 90
+        },
+        {
+          "id": "buttons",
+          "label": "Buttons",
+          "group": "Components",
+          "order": 100
+        },
+        {
+          "id": "cards",
+          "label": "Cards",
+          "group": "Components",
+          "order": 110
+        },
+        {
+          "id": "forms",
+          "label": "Forms",
+          "group": "Components",
+          "order": 120
+        },
+        {
+          "id": "auth-card",
+          "label": "Auth Card",
+          "group": "Components",
+          "order": 130
+        },
+        {
+          "id": "table",
+          "label": "Table",
+          "group": "Components",
+          "order": 140
+        },
+        {
+          "id": "alerts",
+          "label": "Alerts",
+          "group": "Components",
+          "order": 150
+        },
+        {
+          "id": "badges",
+          "label": "Badges",
+          "group": "Components",
+          "order": 160
+        },
+        {
+          "id": "modal",
+          "label": "Modal",
+          "group": "Components",
+          "order": 170
+        },
+        {
+          "id": "dashboard",
+          "label": "Dashboard",
+          "group": "Layouts",
+          "order": 180
+        },
+        {
+          "id": "responsive-grid",
+          "label": "Responsive Grid",
+          "group": "Layouts",
+          "order": 190
+        },
+        {
+          "id": "landing-page",
+          "label": "Landing Page",
+          "group": "Layouts",
+          "order": 200
+        },
+        {
+          "id": "theme-showcase",
+          "label": "Theme Showcase",
+          "group": "Themes",
+          "order": 210
+        }
+      ]
     }
   ]
 }
