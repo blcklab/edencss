@@ -1,12 +1,7 @@
 {
-  "$schema": "http://localhost:5173/schemas/v0.8/scriptoria.schema.json",
+  "$schema": "https://scriptoria.dev/schemas/v0.9/scriptoria.schema.json",
   "title": "EdenCSS",
-  "description": "A TypeScript-powered, mobile-first CSS utility system.",
-  "ref": "master",
-  "content": {
-    "root": "docs"
-  },
-  "entry": "index.md",
+  "description": "A TypeScript-powered, mobile-first CSS utility system for modern web interfaces.",
   "playground": {
     "manifest": ".scriptoria/playground.json"
   }
