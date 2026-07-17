@@ -12,7 +12,7 @@ Use this when an icon-only button needs accessible text.
 
 ## Focus ring
 
-```html
+```html playground
 <button class="focus-ring touch">
   Save
 </button>

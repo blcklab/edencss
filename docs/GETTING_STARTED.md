@@ -30,7 +30,7 @@ In a CSS file:
 
 ## First layout
 
-```html
+```html playground
 <main class="container section stack-y gap-y-8">
   <header class="stack-y gap-y-3 text-center">
     <p class="text-primary font-semibold">Modern CSS utilities</p>
